@@ -12,7 +12,6 @@
     tools:context="com.example.kristoffer.akks.MainActivity">
 
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
