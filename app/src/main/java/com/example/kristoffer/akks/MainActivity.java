@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-    //liten endring
+    //litt endringer
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
