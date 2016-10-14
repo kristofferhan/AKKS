@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">AKKS</string>
     <string name="velkommen">Velkommen til AKKS sin øvingslokale-booking app!</string>
+    <string name="loginbtn">Logg inn</string>
+    <string name="reserver">Reserver lokale</string>
+    <string name="bookinger">Mine bookinger</string>
+    <string name="lokaler">Øvingslokaler</string>
+    <string name="info">Om AKKS</string>
 </resources>
