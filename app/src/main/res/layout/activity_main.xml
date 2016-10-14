@@ -23,7 +23,9 @@
         android:id="@+id/lokaler"
         style="@style/CategoryStyle"
         android:background="@color/categories"
-        android:text="@string/lokaler" />
+        android:text="@string/lokaler"
+        android:clickable="true"
+        android:onClick="lokaler"/>
 
     <TextView
         android:id="@+id/om"
