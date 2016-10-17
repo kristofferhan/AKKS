@@ -40,14 +40,15 @@
     <ImageView
         android:src="@drawable/romA"
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="150dp"
-        android:layout_alignTop="@+id/res1" />
+        android:layout_alignTop="@+id/res1"
+        android:layout_alignParentLeft="true"/>
 
     <ImageView
         android:src="@drawable/romA"
         android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="150dp"
         android:layout_gravity="left"
         android:layout_alignTop="@+id/res2"

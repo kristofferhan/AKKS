@@ -9,15 +9,13 @@
     tools:context="com.example.kristoffer.akks.MainActivity">
 
     <ImageView
-        android:src="@drawable/usfverftet"
-        android:layout_width="match_parent"
+        android:src="@drawable/usf"
+        android:layout_width="500dp"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="-12.5dp"
         android:paddingTop="20dp"
         android:layout_gravity="center"
-        android:background="#8FFF"/>
+        />
 
     <TextView
         android:id="@+id/om"
@@ -25,10 +23,11 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_marginBottom="20dp"
+
         android:layout_gravity="center"
         android:background="#8FFF"
         style="@style/CategoryStyle"
-        android:text="AKKS Bergen holder til på kulturhuset USF Verftet. Her drifter vi 5 øvingslokaler og arrangerer de fleste av kursene våre. AKKS Bergen tilbyr instrument- og vokalkurs, bandkurs og utleie av øvingslokaler.I tillegg står vi bak  UFLAKKS, konsertserien av og for ungdom, og arrangerer Lyden fra Øvingslokalet og rockefestivalen for ungdom Eggstockfestivalen." />
+        android:text="@string/om_akks" />
 
 
 
