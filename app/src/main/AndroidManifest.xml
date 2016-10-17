@@ -17,7 +17,16 @@
         </activity>
         <activity
             android:name=".LokalerActivity"
-            android:label="Lokaler"/>
+            android:label="Lokaler" />
+        <activity
+            android:name=".OmActivity"
+            android:label="Om AKKS" />
+        <activity
+            android:name=".BookingerActivty"
+            android:label="Mine bookinger" />
+        <activity
+            android:name=".ReserverActivity"
+            android:label="Reserver lokale"/>
     </application>
 
 </manifest>
