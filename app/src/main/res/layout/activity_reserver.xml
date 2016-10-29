@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.kristoffer.akks.ReserverActivity">
 
+    <CalendarView
+        android:id="@+id/reserverkalender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </RelativeLayout>

@@ -10,11 +10,13 @@
     <string name="lokaler">Øvingslokaler</string>
     <string name="info">Om AKKS</string>
 
-    <string name="rom1">Rom A - Apollon</string>
-    <string name="rom2">Rom B - Berntsen</string>
-    <string name="rom3">Rom C - Cecilie</string>
-    <string name="rom4">Rom D - Dennis</string>
-    <string name="rom5">Rom E - Evy</string>
+    <string name="rom_a">Rom A - Apollon</string>
+    <string name="rom_b">Rom B - Berntsen</string>
+    <string name="rom_c">Rom C - Cecilie</string>
+    <string name="rom_d">Rom D - Dennis</string>
+    <string name="rom_e">Rom E - Evy</string>
+
+    <string name="om_akks">AKKS Bergen holder til på kulturhuset USF Verftet. Her drifter vi 5 øvingslokaler og arrangerer de fleste av kursene våre. AKKS Bergen tilbyr instrument- og vokalkurs, bandkurs og utleie av øvingslokaler. I tillegg står vi bak UFLAKKS, konsertserien av og for ungsom, og arrangerer Lyden fra Øvingslokalet og rockefestivalen for ungdom –Eggstockfestivalen. AKKS er en idealistisk musikkorganisasjon som har som formål å arbeide for å rekruttere, motivere og synliggjøre flere kvinner i alle ledd av musikkbransjen.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

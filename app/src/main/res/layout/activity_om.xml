@@ -7,4 +7,17 @@
     android:orientation="vertical"
     tools:context="com.example.kristoffer.akks.MainActivity">
 
+    <ImageView
+        android:contentDescription="@string/om_akks"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="8dp"
+        android:src="@drawable/usf"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:text="@string/om_akks"/>
+
 </LinearLayout>
