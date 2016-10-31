@@ -3,6 +3,7 @@ package com.example.kristoffer.akks;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.TextView;
 
@@ -14,8 +15,9 @@ public class LokalerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        TextView rom_a = (TextView) findViewById(R.id.rom_a);
-        rom_a.setOnClickListener(new View.OnClickListener() {
+        // View finders and on click listeners for the different rooms
+        CardView card_view_a = (CardView) findViewById(R.id.card_view_a);
+        card_view_a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent rom_aIntent = new Intent(LokalerActivity.this, RomA.class);
@@ -23,8 +25,8 @@ public class LokalerActivity extends AppCompatActivity {
             }
         });
 
-        TextView rom_b = (TextView) findViewById(R.id.rom_b);
-        rom_b.setOnClickListener(new View.OnClickListener() {
+        CardView card_view_b = (CardView) findViewById(R.id.card_view_b);
+        card_view_b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent rom_bIntent = new Intent(LokalerActivity.this, RomB.class);
@@ -32,8 +34,8 @@ public class LokalerActivity extends AppCompatActivity {
             }
         });
 
-        TextView rom_c = (TextView) findViewById(R.id.rom_c);
-        rom_c.setOnClickListener(new View.OnClickListener() {
+        CardView card_view_c = (CardView) findViewById(R.id.card_view_c);
+        card_view_c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent rom_cIntent = new Intent(LokalerActivity.this, RomC.class);
@@ -41,8 +43,8 @@ public class LokalerActivity extends AppCompatActivity {
             }
         });
 
-        TextView rom_d = (TextView) findViewById(R.id.rom_d);
-        rom_d.setOnClickListener(new View.OnClickListener() {
+        CardView card_view_d = (CardView) findViewById(R.id.card_view_d);
+        card_view_d.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent rom_dIntent = new Intent(LokalerActivity.this, RomD.class);
@@ -50,8 +52,8 @@ public class LokalerActivity extends AppCompatActivity {
             }
         });
 
-        TextView rom_e = (TextView) findViewById(R.id.rom_e);
-        rom_e.setOnClickListener(new View.OnClickListener() {
+        CardView card_view_e = (CardView) findViewById(R.id.card_view_e);
+        card_view_e.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent rom_eIntent = new Intent(LokalerActivity.this, RomE.class);

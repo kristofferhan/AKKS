@@ -39,6 +39,7 @@
                     android:scheme="http" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".LokalerActivity"
             android:label="Lokaler" />
@@ -46,14 +47,31 @@
             android:name=".OmActivity"
             android:label="Om AKKS" />
         <activity
-            android:name=".BookingerActivty"
+            android:name=".BookingerActivity"
             android:label="Mine bookinger" />
         <activity
             android:name=".ReserverActivity"
             android:label="Reserver lokale" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name="RomA"
+            android:label="@string/rom_a"/>
+        <activity
+            android:name="RomB"
+            android:label="@string/rom_b"/>
+        <activity
+            android:name="RomC"
+            android:label="@string/rom_c"/>
+        <activity
+            android:name="RomD"
+            android:label="@string/rom_d"/>
+        <activity
+            android:name="RomE"
+            android:label="@string/rom_e"/>
+
         <!--
      ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -62,7 +80,6 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".RomA"></activity>
     </application>
 
 </manifest>

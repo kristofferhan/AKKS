@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_om"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.kristoffer.akks.MainActivity">
-
-    <ImageView
-        android:contentDescription="@string/om_akks"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:padding="8dp"
-        android:src="@drawable/usf"/>
 
     <TextView
         android:layout_width="match_parent"

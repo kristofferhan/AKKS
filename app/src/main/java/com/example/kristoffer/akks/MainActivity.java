@@ -15,10 +15,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.google.android.gms.appinvite.AppInvite;
-import com.google.android.gms.appinvite.AppInviteInvitation;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
@@ -28,11 +24,6 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.crash.FirebaseCrash;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
-import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 
 public class MainActivity extends AppCompatActivity implements
         OnConnectionFailedListener {
@@ -92,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements
         bookinger.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent bookingerIntent = new Intent(MainActivity.this, BookingerActivty.class);
+                Intent bookingerIntent = new Intent(MainActivity.this, BookingerActivity.class);
                 startActivity(bookingerIntent);
             }
         });
