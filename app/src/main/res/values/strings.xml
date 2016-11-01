@@ -13,16 +13,14 @@
     <string name="personer_8">"8 personer</string>
     <string name="personer_6">"6 personer</string>
     <string name="personer_5">"5 personer</string>
-    <string name="personer_45">"4-5 personer</string>
+    <string name="personer_45">"4 til 5 personer</string>
     <string name="personer_4">"4 personer</string>
 
-
-
-
-
+    <string name="reserver2">Reserver</string>
     <string name="velg">Velg</string>
     <string name="innehold">Inneholder:</string>
     <string name="rom_a">Rom A - Apollon</string>
+    <string name="rom_a_info">Rom A er et stort rom som passer for opptill 6 personer. Inneholder gitarforsterker, bassforsterker, trommesett og keyboard.</string>
     <string name="rom_b">Rom B - Berntsen</string>
     <string name="rom_c">Rom C - Cecilie</string>
     <string name="rom_d">Rom D - Dennis</string>

@@ -5,12 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.kristoffer.akks.MainActivity">
+    tools:context="com.example.kristoffer.akks.MainActivity"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@color/categories"/>
 
     <TextView
+        android:drawableTop="@color/categories"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="8dp"
+        android:layout_margin="8dp"
         android:text="@string/om_akks"/>
 
 </LinearLayout>
