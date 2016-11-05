@@ -9,25 +9,31 @@
         android:supportsRtl="true"
 
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.example.kristoffer.akks.MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".LokalerActivity"
-            android:label="Lokaler" />
+            android:label="@string/app_name" />
         <activity
             android:name=".OmActivity"
-            android:label="Om AKKS" />
-        <activity
-            android:name=".BookingerActivty"
-            android:label="Mine bookinger" />
+            android:label="@string/app_name" />
         <activity
             android:name=".ReserverActivity"
-            android:label="Reserver lokale"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Reservering"
+            android:label="@string/app_name"/>
+
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data
             android:name="com.google.android.gms.version"

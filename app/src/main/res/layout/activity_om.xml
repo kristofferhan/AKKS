@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background"
-    tools:context="com.example.kristoffer.akks.MainActivity">
+    tools:context="com.example.kristoffer.akks.Reservering">
 
     <ImageView
         android:src="@drawable/usf"
@@ -27,7 +27,7 @@
         android:layout_gravity="center"
         android:background="#8FFF"
         style="@style/CategoryStyle"
-        android:text="@string/om_akks" />
+        android:text="string/om_akks" />
 
 
 
