@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ledigrom">
+        <item>Rom A 12:00 15:00</item>
+        <item>Rom B 15:00 18:00</item>
+        <item>Rom C 12:00 15:00</item>
+    </string-array>
+</resources>
