@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#757575"
+    android:background="@drawable/background"
     android:layout_centerVertical="true"
     tools:context="com.example.kristoffer.akks.MainActivity">
 
-    <TextView
+    <ImageButton
+        android:src="@drawable/reslok"
         android:id="@+id/reserver"
         style="@style/CategoryStyle"
         android:layout_width="150dp"
@@ -17,47 +18,47 @@
         android:gravity="center"
         android:layout_marginLeft="30dp"
         android:layout_marginBottom="13dp"
-        android:layout_marginTop="25dp"
-
-        android:background="@color/categories"
+        android:layout_marginTop="50dp"
+        android:background="#000000"
         android:text="@string/reserver" />
 
-    <TextView
+    <ImageButton
+        android:src="@drawable/minres"
         android:id="@+id/bookinger"
+        android:background="#000000"
         style="@style/CategoryStyle"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="50dp"
         android:gravity="center"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="13dp"
-        android:background="@color/categories"
         android:text="@string/bookinger" />
 
-    <TextView
+    <ImageButton
+        android:src="@drawable/ovingslok"
         android:id="@+id/lokaler"
         style="@style/CategoryStyle"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:gravity="center"
         android:layout_below="@+id/bookinger"
-
         android:layout_alignParentEnd="true"
         android:layout_marginRight="30dp"
-        android:background="@color/categories"
+        android:background="#000000"
         android:text="@string/lokaler" />
 
-    <TextView
+    <ImageButton
+        android:src="@drawable/om"
         android:id="@+id/om"
         style="@style/CategoryStyle"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:gravity="center"
         android:layout_below="@+id/reserver"
-
         android:layout_marginLeft="30dp"
-        android:background="@color/categories"
+        android:background="#000000"
         android:text="@string/info" />
 
 

@@ -13,28 +13,24 @@
         android:id="@+id/res1"
         android:layout_width="match_parent"
         android:gravity="end"
-        android:layout_height="150dp"
+        android:layout_height="200dp"
         android:fontFamily="sans-serif-light"
         android:background="#8FFF"
+        android:paddingStart="180dp"
         style="@style/CategoryStyle"
-        android:text="Rom A
-                     Mandag 03.10.16
-                     kl. 14:00 - 17:00
-                     Dørkode: 5836"/>
-
+        android:text="Rom A blir ofte brukt til kurs, men er storsett ledig dag tid og i helger. Rommet er på 23,3 kvm og passer for band opptil 6 personer. Inneholder: 3 gitarforsterkerlayout/activity_lokaler.xml:21e, 1 bassforsterker,  sanganlegg/PA "
+        />
 
     <TextView
         android:id="@+id/res2"
         android:layout_width="match_parent"
         android:gravity="end"
-        android:layout_height="150dp"
+        android:layout_height="200dp"
         android:background="#8FFF"
+        android:paddingStart="180dp"
         android:fontFamily="sans-serif-light"
         style="@style/CategoryStyle"
-        android:text="Rom A
-                     Onsdag 05.10.16
-                     kl. 17:00 - 20:00
-                     Dørkode: 5667"
+        android:text="Rom B er 20,9 kvm og passer for band opp til 4-5 personer. Inneholder: 3 gitarforsterkere, 1 bassforsterker,sanganlegg/PA med to mikrofoner, elpiano og slagverk."
         android:layout_below="@+id/res1"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp" />
@@ -48,7 +44,7 @@
         android:layout_alignParentLeft="true"/>
 
     <ImageView
-        android:src="@drawable/romA"
+        android:src="@drawable/romB"
         android:id="@+id/imageView1"
         android:layout_width="200dp"
         android:layout_height="150dp"
