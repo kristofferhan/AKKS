@@ -11,7 +11,9 @@
         android:contentDescription="@string/rom_d"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@color/colorPrimary" />
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rom_d" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,7 +29,7 @@
         android:layout_height="160dp"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:text="@string/rom_a_info" />
+        android:text="@string/rom_d_info" />
 
     <Button
         android:layout_width="100dp"

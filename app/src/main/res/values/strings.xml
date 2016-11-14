@@ -20,30 +20,24 @@
     <string name="velg">Velg</string>
     <string name="innehold">Inneholder:</string>
     <string name="rom_a">Rom A - Apollon</string>
-    <string name="rom_a_info">Rom A er et stort rom som passer for opptill 6 personer. Inneholder gitarforsterker, bassforsterker, trommesett og keyboard.</string>
+    <string name="rom_a_info">Blir ofte brukt til kurs, men er stort sett ledig på dagtid og i helger. Rommet er på 23,3 kvm og passer for band opptil 6 personer. Inneholder: 3 gitarforsterkere, 1 bassforsterker,  sanganlegg/PA med to mikrofoner, elpiano og slagverk. I tillegg har vi ekstra utstyr til kursene våre her.</string>
     <string name="rom_b">Rom B - Berntsen</string>
+    <string name="rom_b_info">Rommet er på 20,9 kvm og passer for band opptil 4 til 5 personer. Inneholder: 3 gitarforsterkere, 1 bassforsterker,  sanganlegg/PA med to mikrofoner, elpiano og slagverk.</string>
     <string name="rom_c">Rom C - Cecilie</string>
+    <string name="rom_c_info">Det minste lokalet vårt, på 14,6 kvm, og passer for band opptil 4 personer.Rommet har også DJ utstyr, to cdspillere med mikser. Inneholder: 3 gitarforsterkere, 1 bassforsterker,  sanganlegg/PA med to mikrofoner og slagverk.</string>
     <string name="rom_d">Rom D - Dennis</string>
+    <string name="rom_d_info"> Stort og romslig lokale på 24,2 kvm som passer bra for større band og prosjekt opptil 8 personer. Her har vi også et akustisk piano. Inneholder: 3 gitarforsterkere, 1 bassforsterker,  sanganlegg/PA med tre mikrofoner, akustisk piano, elpiano og slagverk.</string>
     <string name="rom_e">Rom E - Evy</string>
+    <string name="rom_e_info">Et stort og romslig lokale på 33,5 kvm som passer bra for større band og prosjekt opptil 8 personer, her har vi også litt kraftigere forsterkere. Inneholder: 3 gitarforsterkere, 1 bassforsterker, keyboard, sanganlegg/PA med tre mikrofoner og slagverk.</string>
 
 
     <string name="om_akks">AKKS Bergen holder til på kulturhuset USF Verftet. Her drifter vi 5 øvingslokaler og arrangerer de fleste av kursene våre. AKKS Bergen tilbyr instrument- og vokalkurs, bandkurs og utleie av øvingslokaler. I tillegg står vi bak UFLAKKS, konsertserien av og for ungsom, og arrangerer Lyden fra Øvingslokalet og rockefestivalen for ungdom –Eggstockfestivalen. AKKS er en idealistisk musikkorganisasjon som har som formål å arbeide for å rekruttere, motivere og synliggjøre flere kvinner i alle ledd av musikkbransjen.</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_login">Logg inn</string>
-
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="res1_info1">Torsdag 29.11</string>
+    <string name="res1_info2">Kl. 16.00–19.00</string>
+    <string name="res1_kode">Dørkode: 4453</string>
+    <string name="res2_info1">Mandag 05.12</string>
+    <string name="res2_info2">Kl. 19.00–22.00</string>
+    <string name="res2_kode">Dørkode: 4453</string>
 
 </resources>
