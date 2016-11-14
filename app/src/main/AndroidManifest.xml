@@ -53,10 +53,6 @@
             android:name=".ReserverActivity"
             android:label="Reserver lokale" />
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity
             android:name="RomA"
             android:label="@string/rom_a"/>
         <activity
