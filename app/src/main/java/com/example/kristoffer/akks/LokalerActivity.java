@@ -14,6 +14,7 @@ public class LokalerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_lokaler);
 
         // View finders and on click listeners for the different rooms
         CardView card_view_a = (CardView) findViewById(R.id.card_view_a);
