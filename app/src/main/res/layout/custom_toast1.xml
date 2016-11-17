@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_toast_layout_id"
+    android:background="@color/colorPrimaryDark"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="24sp"
+        android:textColor="@color/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:drawableTop="@drawable/ic_done_black_24dp"/>
+
+</LinearLayout>

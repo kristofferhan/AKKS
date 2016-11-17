@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#000</color>
     <color name="colorAccent">#FF4081</color>
     <color name="categories">#ffff00</color>
+    <color name="toast">#ffff</color>
 </resources>

@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_reserver"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bakgrunn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
@@ -12,6 +23,7 @@
     <CalendarView
         android:id="@+id/reserverkalender"
         android:layout_width="match_parent"
+        android:background="@color/cardview_dark_background"
         android:layout_height="300dp"/>
 
     <ScrollView
@@ -73,7 +85,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/res1_info1"
+                android:text="@string/res2_info1"
                 android:layout_gravity="top|end"
                 android:textAppearance="@android:style/TextAppearance.Material.Title"
                 android:textColor="@android:color/black" />
@@ -81,7 +93,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/rom_b"
+                android:text="@string/rom_a"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="top|end"
                 android:textColor="@android:color/black"
@@ -90,7 +102,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/res1_info2"
+                android:text="@string/res2_info2"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="center|end"
                 android:textColor="@android:color/black"
@@ -99,43 +111,6 @@
 
         </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/card_view_res_c"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                app:cardBackgroundColor="@color/categories"
-                app:cardCornerRadius="2dp"
-                app:contentPadding="8dp"
-                app:cardUseCompatPadding="true">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/res1_info1"
-                    android:layout_gravity="top|end"
-                    android:textAppearance="@android:style/TextAppearance.Material.Title"
-                    android:textColor="@android:color/black" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/rom_b"
-                    android:layout_marginTop="30dp"
-                    android:layout_gravity="top|end"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/res1_info2"
-                    android:layout_marginTop="30dp"
-                    android:layout_gravity="center|end"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"/>
-
-
-            </android.support.v7.widget.CardView>
 
         </LinearLayout>
 
@@ -147,3 +122,5 @@
 
 
 </LinearLayout>
+
+    </FrameLayout>
